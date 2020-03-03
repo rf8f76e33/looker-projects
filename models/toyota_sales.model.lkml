@@ -31,3 +31,5 @@ explore: toyota_dealer_cross_sell_r12 {}
 explore: toyota_dt_daily_sales_feed {}
 
 explore: toyota_regional_sales {}
+
+explore: toyota_area_sales {}

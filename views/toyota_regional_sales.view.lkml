@@ -9,6 +9,11 @@ view: toyota_regional_sales {
     drill_fields: [detail*]
   }
 
+  measure: total_national_sales {
+    type: sum
+    sql: ${dealer_national_sales } ;;
+  }
+
   dimension: dealer_code {
     type: number
     sql: ${TABLE}.dealer_code ;;
