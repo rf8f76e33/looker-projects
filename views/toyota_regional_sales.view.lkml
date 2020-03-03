@@ -36,7 +36,7 @@ view: toyota_regional_sales {
 
   measure: total_national_sales {
     type: sum
-    sql: ${dealer_national_sales } ;;
+    sql: ${dealer_national_sales} ;;
   }
 
   set: detail {
