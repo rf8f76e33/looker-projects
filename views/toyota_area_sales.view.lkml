@@ -14,12 +14,12 @@ view: toyota_area_sales {
     sql: ${TABLE}.area ;;
   }
 
-  dimension: total_sales_in_pma {
+  measure: total_sales_in_pma {
     type: number
     sql: ${TABLE}.total_sales_in_pma ;;
   }
 
-  dimension: dealer_national_sales {
+  measure: dealer_national_sales {
     type: number
     sql: ${TABLE}.dealer_national_sales ;;
   }
